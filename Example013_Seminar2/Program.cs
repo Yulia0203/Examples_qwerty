@@ -1,10 +1,10 @@
 ﻿  // Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно 7 и 23
 
-  bool CheckNumber(int number)
+  bool CheckNumber(int number, int firstDevide, int secondDevide)
   {
-    if(number % 7 == 0)
+    if(number % firstDevide == 0)
     {
-        if(number % 23 == 0)
+        if(number % secondDevide == 0)
         {
             return true;
         }
@@ -14,7 +14,7 @@
 
   Console.Write("Введите число: ");
   int firstNumber = Convert.ToInt32(Console.ReadLine());
-  bool result = CheckNumber(firstNumber);
+  bool result = CheckNumber(firstNumber, 7, 23);
   Console.Write(result);
-  
+
 
