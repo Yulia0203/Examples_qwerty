@@ -1,44 +1,19 @@
-﻿void FillArray(int[] collection)
-{
-    int lenght = collection.Length;
-    int index = 0;
-    while (index < lenght)
-    {
-        collection[index] = new Random().Next(1, 10);
-        //index = index + 1;
-        index++;
-    }
-}
+﻿//Напишите программу, которая выводит случайное число из отрезка [10, 99] и показывет наибольшую цифру числа
 
-void PrintArray(int[] col)
-{
-    int count = col.Length;
-    int position = 0;
-    while(position < count)
-    {
-        Console.WriteLine(col[position]);
-        position++;
-    }
-}
+Random random = new Random();
+//для генерации рандомных чисел
+int randomNumber = random.Next(10, 100);
 
-int indexOf(int[] collection, int find)
-{
-    int count = collection.Length;
-    int index = 0;
-    int position = 0;
-    while(index < count)
-    {
-        if(collection[index] == find)
-        {
-            position = index;
-        }
-        return position;
-    }
-}
-int [] array = new int[10];
-FillArray(array);
-PrintArray(array);
-Console.WriteLine();
+Console.WriteLine(randomNumber);
 
-int pos = indexOf(array, 4);
-Console.WriteLine(pos);
+int lastNumber = randomNumber % 10;
+int firstNumber = randomNumber / 10;
+
+if(lastNumber > firstNumber)
+{
+    Console.WriteLine("Максимальное число равно " + lastNumber);
+}
+else
+{
+    Console.WriteLine("Максимальное число равно " + firstNumber);
+}
