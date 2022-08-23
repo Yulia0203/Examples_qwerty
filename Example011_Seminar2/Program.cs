@@ -6,10 +6,9 @@ int RandomNumber = random.Next(100, 1000);
 Console.WriteLine(RandomNumber);
 
 int firstNumber = RandomNumber / 100;
-int secondNumber = RandomNumber % 100;
-int threeNumber = secondNumber % 10;
+int secondNumber = RandomNumber % 10;
 
-int result = (firstNumber * 10) + threeNumber;
+int result = (firstNumber * 10) + secondNumber;
 Console.WriteLine(result);
 
 
