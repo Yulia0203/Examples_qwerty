@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Юля\\Desktop\\Git_Test_new\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj": {}
+    "C:\\Users\\Юля\\Desktop\\ЮЛЯ\\Программирование\\C#\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Юля\\Desktop\\Git_Test_new\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj": {
+    "C:\\Users\\Юля\\Desktop\\ЮЛЯ\\Программирование\\C#\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Юля\\Desktop\\Git_Test_new\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
+        "projectUniqueName": "C:\\Users\\Юля\\Desktop\\ЮЛЯ\\Программирование\\C#\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
         "projectName": "Example001_HelloConsole",
-        "projectPath": "C:\\Users\\Юля\\Desktop\\Git_Test_new\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
+        "projectPath": "C:\\Users\\Юля\\Desktop\\ЮЛЯ\\Программирование\\C#\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
         "packagesPath": "C:\\Users\\Юля\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Юля\\Desktop\\Git_Test_new\\Examples\\Example001_HelloConsole\\obj\\",
+        "outputPath": "C:\\Users\\Юля\\Desktop\\ЮЛЯ\\Программирование\\C#\\Examples\\Example001_HelloConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Юля\\AppData\\Roaming\\NuGet\\NuGet.Config"
