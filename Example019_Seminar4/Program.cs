@@ -1,6 +1,11 @@
 ﻿// Напишите программу, которая принимает на вход число А и выдает сумму чисел от 1 до А
 
 bool isNumber = int.TryParse(Console.ReadLine(), out int number);
+if(isNumber == false)
+{
+    Console.WriteLine("Is not valid");
+    return;
+}
 
 int result = GetSumNumber(number);
 
