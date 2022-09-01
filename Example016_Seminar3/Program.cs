@@ -5,11 +5,11 @@ string GetCoordinat (int Number)
 {
     switch(Number)
     {
-        case 1: return "x > 0, y > 0"; break;
-        case 2: return "x < 0, y > 0"; break;
-        case 3: return "x < 0, y < 0"; break;
-        case 4: return "x > 0, y < 0"; break;
-        default: return("Ошибка"); break;
+        case 1: return "x > 0, y > 0"; 
+        case 2: return "x < 0, y > 0"; 
+        case 3: return "x < 0, y < 0"; 
+        case 4: return "x > 0, y < 0"; 
+        default: return("Ошибка"); 
     }
 }
 string result = GetCoordinat(Number);
