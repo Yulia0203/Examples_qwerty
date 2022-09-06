@@ -32,7 +32,7 @@ bool GetNumberTrueFalse(int[] array, int z)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        if (array[i] == z);
+        if (array[i] == z)
         return true;
     }
     return false;
