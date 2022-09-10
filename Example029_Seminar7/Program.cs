@@ -1,6 +1,6 @@
 ﻿// Задайте двумерный массив размером m*n, заполненный случайными целыми числами
 
-int[,] result = CreateRandomArray(5,6);
+int[,] result = CreateRandomArray(10,5);
 Print2DArray(result);
 
 
